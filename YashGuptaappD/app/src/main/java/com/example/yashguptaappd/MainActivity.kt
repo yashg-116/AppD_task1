@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
           val userage=age.text.toString()
             if(username!="") {
                 Toast.makeText(this, "Hello! I am $username \n How are you !", Toast.LENGTH_LONG).show()
-                name.setTag("")
+                name.setText("")
                 age.setText("")
             }
             else{
